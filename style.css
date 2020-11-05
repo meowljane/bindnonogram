@@ -61,6 +61,7 @@ div.grid {
   border-radius: 2px;
   border: 0.5px solid #303030;
   background-color: rgb(255, 255, 220);
+transform: translate(-40px, 0px);
   float: left;
   text-align: center;
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5);
@@ -80,7 +81,8 @@ div.grid:hover {
 div.upclue {
   text-align: center;
   width: 20px;
-  height: 100px;
+  height: 120px;
+ margin-top:-20px;
   border-radius: 2px;
   border: 0.5px solid #969696;
   background-color: rgba(255, 194, 224, 0.8);
@@ -93,8 +95,9 @@ div.upclue {
 div.leftclue {
   text-align: right;
   letter-spacing: 2px;
-  width: 100px;
+  width: 140px;
   height: 20px;
+transform: translate(-40px, 0px);
   border-radius: 2px;
   border: 0.5px solid #969696;
   background-color: rgba(255, 194, 224, 0.8);
